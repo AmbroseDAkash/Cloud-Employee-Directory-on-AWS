@@ -1,0 +1,23 @@
+[
+  {
+    "id": "101",
+    "name": "John Doe",
+    "location": "New York",
+    "email": "john.doe@example.com",
+    "photo": "employee1.png"
+  },
+  {
+    "id": "102",
+    "name": "Jane Smith",
+    "location": "Chicago",
+    "email": "jane.smith@example.com",
+    "photo": "employee2.png"
+  },
+  {
+    "id": "103",
+    "name": "Michael Brown",
+    "location": "San Francisco",
+    "email": "michael.brown@example.com",
+    "photo": "employee3.png"
+  }
+]
