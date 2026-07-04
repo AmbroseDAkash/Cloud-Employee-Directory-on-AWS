@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowS3ReadAccess",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::<AWS-ACCOUNT-ID>:role/EmployeeDirectoryAppRole"
+      },
+      "Action": "s3:*",
+      "Resource": [
+        "arn:aws:s3:::employee-photo-bucket-<project-name>",
+        "arn:aws:s3:::employee-photo-bucket-<project-name>/*"
+      ]
+    }
+  ]
+}
